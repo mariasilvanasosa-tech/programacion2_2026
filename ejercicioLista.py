@@ -1,0 +1,16 @@
+provincias = ["Buenos Aires","Cordoba","Santa Fe","Mendoza","Salta","Chubut"]
+print (provincias)
+print (provincias[2])
+print (provincias[:4])
+provincias.insert(1,"La Pampa")
+print (provincias[:4])
+masprovincias = ["Neuquen","Rio Negro"]
+provincias.extend(masprovincias)
+print(provincias)
+provincias.remove("Chubut")
+print(provincias)
+ultima= provincias.pop()
+print(ultima)
+provincias.append("Salta")
+provincias.append("Tierra del Fuego")
+print(provincias)
